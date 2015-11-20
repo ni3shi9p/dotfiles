@@ -30,6 +30,8 @@
  NeoBundle 'Shougo/neocomplcache'
  NeoBundle 'tpope/vim-fugitive'
 
+ NeoBundleLazy 'puppetlabs/puppet-syntax-vim', {
+  \ 'autoload': {'filetypes': ['puppet']}} 
 
  call neobundle#end()
 
