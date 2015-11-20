@@ -1,0 +1,6 @@
+ctrlp.vim
+neobundle.vim
+neocomplcache
+nerdtree
+syntastic
+vim-fugitive

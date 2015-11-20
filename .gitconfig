@@ -1,0 +1,16 @@
+[user]
+        email = 
+        name = 
+[core]
+        excludesfile = 
+[color]
+        ui = true
+[alias]
+        co = checkout
+        br = branch
+        st = status
+        d  = diff
+        cm = commit
+        a  = add
+        unstage = reset HEAD --
+        last = log -1 HEAD
