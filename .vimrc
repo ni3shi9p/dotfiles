@@ -50,6 +50,8 @@
  imap <C-f> <Right>
  imap <C-e> <End>
  imap <C-a> <Home>
+ imap <C-p> <Up>
+ imap <C-n> <Down>
 
  set nu
  syntax on
