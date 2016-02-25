@@ -29,6 +29,7 @@
  NeoBundle 'kien/ctrlp.vim'
  NeoBundle 'Shougo/neocomplcache'
  NeoBundle 'tpope/vim-fugitive'
+ NeoBundle 'TwitVim'
 
  NeoBundleLazy 'puppetlabs/puppet-syntax-vim', {
   \ 'autoload': {'filetypes': ['puppet']}} 
@@ -55,5 +56,10 @@
 
  set nu
  syntax on
+
+ " TwitVim
+ let twitvim_browser_cmd = 'open'
+ let twitvim_force_ssl = 1
+ let twitvim_cont = 40
 
  filetype plugin indent on

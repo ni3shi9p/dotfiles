@@ -6,4 +6,4 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.vim/filetype.vim ~/.vim/filetype.vim
 ln -sf ~/dotfiles/.vim/ftplugin/ ~/.vim/ftplugin/
 
-cp -r ~/dotfiles/.gitconfig ~/.gitconfig
+#cp -r ~/dotfiles/.gitconfig ~/.gitconfig
